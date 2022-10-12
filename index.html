@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" class="css">
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" class="css">
+    <link rel="stylesheet" href="fontawesome/css/brands.min.css" class="css">
+    <link rel="stylesheet" href="fontawesome/css/solid.min.css" class="css">
+
+    <title>ceyy's to-do</title>
+</head>
+
+<body>
+    <div class="container col-4 bg-white rounded-0 py-2 my-4 letter">
+        <div class="row justify-content-center">
+            <header class="border-bottom mb-2 px-3 d-flex justify-content-between">
+                <h1>ceyy's to do list</h1>
+                <div class="alert-wrapper">
+                    <div class="alert-success bg-success p-2 text-white text-center">
+                        Added
+                    </div>
+                    <div class="alert-warning bg-danger p-2 text-white text-center">
+                        Write Something!
+                    </div>
+                </div>
+            </header>
+            <div>
+                <form action="" class="w-100">
+                    <div class="search d-flex mx-0 my-2 w-100 border-bottom bg-white">
+                        <input type="text" class="todo-input w-100 border-0 shadow-none mx-1"
+                            placeholder="Write Something..">
+                        <button class="btn btn-white todo-button rounded-0 border-0 mb-1" type="submit">
+                            <i class="fa-solid fa-plus fa-xl text-primary"
+                                style="font-family:'Poppins', sans-serif !important; "></i>
+                        </button>
+                    </div>
+                    <div class="select border-bottom mb-4">
+                        <select class="filter-todo form-select  border-0" name="todos">
+                            <option value="all">All</option>
+                            <option value="completed">Completed</option>
+                            <option value="uncompleted">Uncompleted</option>
+                        </select>
+                    </div>
+                </form>
+
+                <div class="todo-container">
+                    <ul class="todo-list  p-0  m-0"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
